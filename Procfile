@@ -1,1 +1,1 @@
-web: MAVEN_OPTS="-Xms1g -Xmx1g" mvn jetty:run -Dcleo.instance.name=Company -Dcleo.instance.type=cleo.primer.GenericTypeaheadInstance -Dcleo.instance.conf=src/main/resources/config/generic-typeahead
+web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port 80 target/*.war
