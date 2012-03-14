@@ -52,7 +52,7 @@
                     <reload>manual</reload>
                     <connectors>
                         <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>8080</port>
+                            <port>80</port>
                         </connector>
                     </connectors>
                     <systemproperties>
